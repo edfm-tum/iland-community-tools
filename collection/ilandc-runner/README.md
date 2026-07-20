@@ -13,22 +13,6 @@ In a nutshell you:
 - then you runs 3 python scripts and wait
 - in the meantime you can monitor the progress of each worker via [screen](https://linuxize.com/post/how-to-use-linux-screen/) command or check the log files for progress
 
-
----
-
-## Repository Structure
-TODO change this here
-
-```
-.
-├── data/           # Input data
-├── scripts/        # Main scripts
-├── config/         # Configuration files
-├── docs/           # Documentation
-├── examples/       # Example workflows
-└── README.md
-```
-
 ---
 
 ## Prerequisites & Installation
