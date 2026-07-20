@@ -88,7 +88,7 @@ TODO change this here
         - if you rerun the ilandc runner again now it will skip some files because it sees that a .sqlite file of the corresponding run is already there. So go into your output folder and delete all those .sqlite files that you want to rerun
 5. if you want an ETA on when the simulations will be finished, do the following
     - note the time when you started the ilandc runner
-    - do "ls -l outputs | wc -l" to get the number of all finished + currently running ilandc runs
+    - do "ls -l outputs/*.sqlite | wc -l" to get the number of all finished + currently running ilandc runs
     - calculate your ETA from that
 6. do a final check and see if all output sqlites where produced correctly; you can also run `python 01_prepare_queue.py` again and if all results were produced correctly it should skip all of the runs
 
