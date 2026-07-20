@@ -1,0 +1,24 @@
+[general]
+
+# write the path to your ilandc executable here + any export that it needs before that
+path_to_ilandc_executable = "export LD_LIBRARY_PATH=/data/public/iLand/linux/ilandbin && export QT_PLUGIN_PATH=/data/public/iLand/linux/ilandbin/plugins && /data/public/iLand/linux/ilandbin/ilandc_us"
+
+
+[input]
+# list all iland projects here
+# projects should have iland run tables as .xlsx or .csv in them (see README)
+iland_project_list = [
+    "/data/public/iLand/projects/pnv_germany_v2"
+]
+
+[threading]
+# specify the number of workers and number of threads per worker here
+# good rule of thumb:
+# - find out the number of CPU cores on your system, e.g. 172 (call "lscpu" and check number at "CPU(s)")
+# - determine at how much capacity you want to stress the server, e.g. 50%    (please also think about your collegues there that also need the server)
+# - calculate the result (e.g. 172*50% = 86) and make sure that the product of those 2 numbers is in that range
+# - about 10-20 minutes into starting the runs, check your actual CPU usage (e.g. via htop) and adjust the numbers if necessary (restart required)
+
+n_workers= 8                     # how many simulations to do in parallel
+n_threads_per_worker = 10        # how many threads for one iLand simulation worker (decrease this if you have multiple simulations in parallel)
+
