@@ -1,5 +1,5 @@
 # iland-community
-Tools and Material to be shared with the iLand community
+Tools and Material to be shared with the iLand community-tools
 
 ## About this repository
 - here, we want to collect all tools, datasets, workflows (or whatever you think would benefit the iLand community) around iLand
