@@ -23,16 +23,21 @@ Useful tools and material from and for the iLand modeling community.
 - Quick summary in a few bullet points (detailed descriptions go to the README in the subfolder of the corresponding tool/material)
 
 ## How to contribute
-1. Write a message in Discord saying that you want to contribute and give your Github name. Any moderator can then give you "Write" access to this repo.
-2. Edit **this** file and add a quick description under the "Overview of the tools/material" section (note that you can edit Markdown files like this directly from the browser). Depending on the number of contributions, we might re-structure the flat list of the Overview section in the future.
-3. Create a new folder under the "collection" folder. Please check the TEMPLATE folder first so that we can keep a similar structure between tools
-4. Add all the files needed for your tool. Please note that Github is not suitable for sharing larger datasets, so if you want to do this, please consult Werner or Jonas first. Any small data below 50mb should be fine. If you merely want to link to another resource (either another GitHub repository, or a data repositoriy with a DOI like Zenodo), then ...
-5. Create a README.md in your folder (refer to template) with detailed instructions on installation and usage. Try to be detailed and write down all the steps required for a correct usage. The more detailed you are here, the less people will reach out to you when trying to get your tool working.
+Contributions can be made in 2 ways
+- case A) you already have a tool/dataset/other resource which has it's own Git repository, Zenodo link, DOI or whatever link that is public accessible
+  - just send a quick message in Discord to any of the moderators including your preferred contact details, the link(s) to the resource, and a few bullet points as a description
+  - we will then add it to the overview section in **this** file
+    
+- case B) your tool/resource is not in any repository yet and you want to add it directly to this repository (like the ilandc-runner)
+  - 1. Write a message in Discord saying that you want to contribute and give your Github name. Any moderator can then give you "Write" access to this repo.
+  - 2. Edit **this** file and add a quick description under the "Overview of the tools/material" section (note that you can edit Markdown files like this directly from the browser). Depending on the number of contributions, we might re-structure the flat list of the Overview section in the future.
+  - 3. Create a new folder under the "collection" folder. Please check the TEMPLATE folder first so that we can keep a similar structure between tools
+  - 4. Add all the files needed for your tool. Please note that Github is not suitable for sharing larger datasets, so if you want to do this, please consult Werner or Jonas first. Any small data below 50mb should be fine and anything bigger can be linked e.g. via a data repository.
+  - 5. Create a README.md in your folder (refer to template) with detailed instructions on installation and usage. Try to be detailed and write down all the steps required for a correct usage. The more detailed you are here, the less people will reach out to you when trying to get your tool working.
 
 Thanks a lot for your contribution. This is incredibly helpful in making iLand more accessible, powerful and easy to use for the community.
 
 If you are new to working with Git/Github and have problems contributing, please reach out to werner.rammer@tum.de and jonas.kerber@tum.de (or via discord)
 
-Note that it is also possible that you keep your tool as a seperate repository under you personal account (could maybe be helpful if your tools is part of a paper where you want to link that separate repository). In that case, please at least add and link your tool to the overview section in this README file and (if needed) create a seperate folder with additional material.
 
 
