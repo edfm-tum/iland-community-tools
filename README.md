@@ -1,11 +1,13 @@
-# iland-community
-Tools and Material to be shared with the iLand community-tools
+# iland-community-tools
+Useful tools and material from and for the iLand modeling community.
 
 ## About this repository
 - here, we want to collect all tools, datasets, workflows (or whatever you think would benefit the iLand community) around iLand
-- please, feel free to scan through the Overview below this section to get an overview of what tools are already in here and see if they might be useful for you
-- if you created something that you want to share with people, please check out the "How to contribute" section below. We are happy for all contributions and can also give you feedback or help you in the process if needed
-- when you struggle to get a tool from somebody else running, please reach out to the listed contributors 
+- please, feel free to scan through the Overview below this section to get an overview of what is already in here and see if they might be useful for you
+- if you created something that you want to share with people, you are very welcome! Please check out the "How to contribute" section below. We are happy for all contributions, either as code, data, or just a link to a repistory, and can also give you feedback or help you in the process if needed
+- note that are we can only provide minimal curation for material added to this repo!
+- you are fully responsible for testing and verifying that any material from the repo works for your specific case
+- please contact the listed contributes directly, if you have questions or encounter problems
 
 ## Overview of the tools/material
 
@@ -22,9 +24,9 @@ Tools and Material to be shared with the iLand community-tools
 
 ## How to contribute
 1. Write a message in Discord saying that you want to contribute and give your Github name. Any moderator can then give you "Write" access to this repo.
-2. Edit this file and add a quick description under the "Overview of the tools/material" section (note that you can edit Markdown files like this directly from the browser).
+2. Edit **this** file and add a quick description under the "Overview of the tools/material" section (note that you can edit Markdown files like this directly from the browser). Depending on the number of contributions, we might re-structure the flat list of the Overview section in the future.
 3. Create a new folder under the "collection" folder. Please check the TEMPLATE folder first so that we can keep a similar structure between tools
-4. Add all the files needed for your tool. Please note that Github is not suitable for sharing larger datasets, so if you want to do this, please consult Werner or Jonas first. Any small data below 50mb should be fine.
+4. Add all the files needed for your tool. Please note that Github is not suitable for sharing larger datasets, so if you want to do this, please consult Werner or Jonas first. Any small data below 50mb should be fine. If you merely want to link to another resource (either another GitHub repository, or a data repositoriy with a DOI like Zenodo), then ...
 5. Create a README.md in your folder (refer to template) with detailed instructions on installation and usage. Try to be detailed and write down all the steps required for a correct usage. The more detailed you are here, the less people will reach out to you when trying to get your tool working.
 
 Thanks a lot for your contribution. This is incredibly helpful in making iLand more accessible, powerful and easy to use for the community.
