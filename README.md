@@ -36,6 +36,7 @@ Contributions can be made in 2 ways
   - 5. Create a README.md in your folder (refer to template) with detailed instructions on installation and usage. Try to be detailed and write down all the steps required for a correct usage. The more detailed you are here, the less people will reach out to you when trying to get your tool working.
 
 Thanks a lot for your contribution. This is incredibly helpful in making iLand more accessible, powerful and easy to use for the community.
+Finally, don't forget to post an announcement about your contribution in the Discord channel "community-tools".
 
 If you are new to working with Git/Github and have problems contributing, please reach out to werner.rammer@tum.de and jonas.kerber@tum.de (or via discord)
 
