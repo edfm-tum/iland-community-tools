@@ -5,7 +5,7 @@ Useful tools and material from and for the iLand modeling community.
 - here, we want to collect all tools, datasets, workflows (or whatever you think would benefit the iLand community) around iLand
 - please, feel free to scan through the Overview below this section to get an overview of what is already in here and see if they might be useful for you
 - if you created something that you want to share with people, you are very welcome! Please check out the "How to contribute" section below. We are happy for all contributions, either as code, data, or just a link to a repistory, and can also give you feedback or help you in the process if needed
-- note that are we can only provide minimal curation for material added to this repo!
+- note that we can only provide minimal curation for material added to this repo!
 - you are fully responsible for testing and verifying that any material from the repo works for your specific case
 - please contact the listed contributes directly, if you have questions or encounter problems
 
@@ -14,7 +14,7 @@ Useful tools and material from and for the iLand modeling community.
 ### ilandc-runner
 - People contributing: Jonas Kerber (jonas.kerber@tum.de)
 - a command line tool based on a python script that allows running many iland runs via the commandline tool "ilandc" in parallel
-- you first define all your runs in a .csv file and set the number of parallel workers and then you start the running the tools
+- you first define all your runs in a .csv file and set the number of parallel workers and then you start running the tools
 - the tool has some dependencies and therefore assumes that you run it on a Linux server or Linux machine (running it on Mac or WSL should be possible too, but was not tested yet)
 - usage example: I used this for simulating 1440 iLand runs in parallel with 12 climates (3 models x 4 climate scenarios) x 12 landscapes x 10 replicates; it ran for a couple of days on a high performance server and I only had to set this up once
 
